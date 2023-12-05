@@ -1,4 +1,4 @@
-# Raspberry Pi Robocar Project
+# Autonomous Robocar using Raspberry Pi Project
 
 ## Overview
 
