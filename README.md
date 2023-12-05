@@ -42,30 +42,30 @@ Before running the project, connect the necessary hardware components to your Ra
 - Any other peripherals required for your specific setup
   
 #### Motor Connections
-##### Front Motors 
-Connected to Motor Driver 1
-  - **Front-Left Forward:** GPIO 17
-  - **Front-Left Backward:** GPIO 18 
-  - **Front-Right Forward:** GPIO 4
-  - **Front-Right Backward:** GPIO 14
-    
-##### Back Motors
-Connected to Motor Driver 2
-  - **Back-Left Forward:** GPIO 12
-  - **Back-Right Forward:** GPIO 27 
-  - **Back-Left Backward:** GPIO 5 
-  - **Back-Right Backward:** GPIO 6
+  ##### Front Motors 
+    Connected to Motor Driver 1
+      - Front-Left Forward: GPIO 17
+      - Front-Left Backward: GPIO 18 
+      - Front-Right Forward: GPIO 4
+      - Front-Right Backward: GPIO 14
+      
+   ##### Back Motors
+    Connected to Motor Driver 2
+        - Back-Left Forward: GPIO 12
+        - Back-Right Forward: GPIO 27 
+        - Back-Left Backward: GPIO 5 
+        - Back-Right Backward: GPIO 6
   
 #### Motor Driver Connections
   - Connect the necessary wires to GPIO pins on the Raspberry Pi and the corresponding input pins on the motor driver for the front motors.
     
 #### Sensor Connections
-##### Infrared Sensors
-  - Connect the left infrared sensor to GPIO 19
-  - the right infrared sensor to GPIO 26.
-##### Ultrasonic Sensors
-  - Connect the left ultrasonic sensor to GPIO 2 (trigger) and GPIO 3 (echo)
-  - Connect the right ultrasonic sensor to GPIO 20 (trigger) and GPIO 21 (echo).
+  ##### Infrared Sensors
+    - Connect the left infrared sensor to GPIO 19
+    - the right infrared sensor to GPIO 26.
+  ##### Ultrasonic Sensors
+    - Connect the left ultrasonic sensor to GPIO 2 (trigger) and GPIO 3 (echo)
+    - Connect the right ultrasonic sensor to GPIO 20 (trigger) and GPIO 21 (echo).
 
   Make sure to double-check all connections before powering on your Raspberry Pi to avoid any potential damage.
   
